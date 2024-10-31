@@ -1,0 +1,106 @@
+body{
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+ background: transparent;
+}
+.main-player{
+width:100%;
+margin:0 auto;
+background:#bd1e2e;
+}
+#currtitle{
+/*padding:5px; font-weight:normal; font-family:Verdana, Arial, Helvetica, sans-serif;*/
+/*font-weight:bold;*/
+color: #90EE90;
+}
+#nexttitle{
+color: #0000ff;
+}
+#prevtitle{
+color: #ff0000;
+}
+.play-section{
+width:22%;
+display:inline-block;
+background-color:#db868e;
+}
+.play-pause-icon{
+list-style:none;
+text-align:center;
+color:#fff;
+/*font-size:78px;*/
+/*font: 4em/1.2 Helvetica, arial, sans-serif;*/
+margin:0px 0px 0px 0px;
+padding:0px 0px 0px 0px;
+background-color: #099; 
+}
+.vol-section{
+width:75%;
+display:inline-block;
+}
+
+ .volumeBar {
+    display:block;
+    height:63px;
+   /* position:absolute;*/
+ 
+    background-color:none;
+    z-index:100;
+    width: 220px;
+    cursor:pointer;
+	padding-left:2px;
+	
+}
+
+
+.volume {
+    /*background-color:#888;*/
+    position:absolute;
+    clip: rect(0px,90px,220px,0px);
+    width: 220px;
+    height: 0;
+	overflow:hidden;
+    border-style: solid;
+    border-width: 0 0 55px 220px;
+    border-color: transparent transparent #ffffff transparent;
+    line-height: 0px;
+    _border-color: #000000 #000000 #ffffff #000000;
+    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
+
+.volumebkg {
+    position:absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 55px 220px;
+    border-color: transparent transparent #db868e transparent;
+    line-height: 0px;
+    _border-color: #000000 #000000 #db868e #000000;
+    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
+@media screen and (max-width: 1400px) {
+.main-player{
+width:100%;
+}
+
+}
+
+
+.main-player{
+/*background:<?php //echo $playerMain; ?>;*/
+}
+
+.play-section{
+/*background-color:<?php //echo $playerHead; ?>;*/
+}
+
+.bn-title{
+    width: 60px;
+    font-weight: bold;
+}
+
+#breakingnews2{
+    padding-top: 2px;
+}
+
+.social-share{ float: right; text-align: center; width: 260px; margin-top: -45px; padding-left: 20px;}
